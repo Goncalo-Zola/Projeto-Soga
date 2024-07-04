@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Social Soga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-section">
+            <h1>Bem - Vindo A Rede Social Soga</h1>
+            <p>Encontre Amigos <br> Participe Em Grupo Em Uma <br> Rede Totalmente Diferenciada</p>
+            <img src="../img/IMG_5874.png" alt="" style="width: 100%;">
+        </div>
+        <div class="registration-section">
+            
+                <h2>Inscreva-se!</h2>
+                <form id="registrationForm">
+                    <div class="photo-upload">
+                        <label for="photoUpload">FOTO</label>
+                        <input type="file" id="photoUpload">
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Insira nome do usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contacto</label>
+                        <input type="text" id="contact" placeholder="Insira número de telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdate">Data Nasc</label>
+                        <input type="date" id="birthdate">
+                    </div>
+                    <div class="form-group">
+                        <label>Gênero</label>
+                        <div class="gender-options">
+                            <input type="radio" id="masculino" name="gender" value="masculino">
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" id="feminino" name="gender" value="feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="google-signin">
+                            <img src="../img/i489932.png" alt="" style="width: auto;">
+                        </button>
+                    </div>
+                    <button type="submit" class="submit-btn">→</button>
+                </form>
+            
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

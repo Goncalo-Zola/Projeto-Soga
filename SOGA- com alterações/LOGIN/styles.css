@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.welcome-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    color: #4a4a4a;
+}
+
+.welcome-section p {
+    color: #7a7a7a;
+}
+
+.welcome-section img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.login-section {
+    background-image: url(../img/Retângulo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: #7b2bf2;*/
+    padding: 20px;
+    width: 50%;
+    color: white;
+    position: relative;
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.forgot-password {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .register-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-btn {
+    background-color: white;
+    color: #7b2bf2;
+}
+
+.register-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
